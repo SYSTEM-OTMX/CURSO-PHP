@@ -58,6 +58,81 @@
 
     echo ($permiso or $autenticado) ? "Bienvenido administrador": "Bienvenido Invitado";
 
+    //operadores mayor >
+    echo "<br/>";
+
+    $total = 55;
+    $pasaMateria = 50;
+    $validarPasa = ($total > $pasaMateria) ? true : false;
+    echo ($validarPasa) ? "PASA" : "NO PASA";
+
+
+    echo "<br/>";
+    //incremento
+    $contador = 1;
+    $contador += $contador;
+    echo $contador;
+
+    echo "<br/>";
+    //decremento
+    $contador = 1;
+    $contador -= $contador;
+    echo $contador;
+
+    echo "<br/>";
+
+    //multiplicacion
+    $contador = 2;
+    $contador *= $contador;
+    echo $contador;
+
+    echo "<br/>";
+
+    //division
+    $contador = 30;
+    $contador /= 2;
+    echo $contador;
+
+    echo "<br/>";
+    //moodulo
+    $contador = 51;
+    $contador %= 2;
+    echo $contador;
+
+
+    //operador de asignacioon
+    echo "<br/>";
+    $nombreCompleto = "Jose ";
+    $nombreCompleto .= "bueno ";
+    $nombreCompleto .= "orlando ";
+    echo $nombreCompleto;
+
+
+    echo "<br/>";
+    //operadores de incremento
+    $conta = 20;
+    $conta  += 1;
+    echo $conta;
+
+    echo "<br/>";
+
+    //operadroo post incremento
+    echo $conta ++;
+    echo "<br/>";
+    echo $conta;
+
+    echo "<br/>";
+    //operador pre incremento
+
+    echo ++ $conta;
+    echo "<br/>";
+    echo $conta;
+
+
+
+
+
+
     ?>
 </body>
 </html>
